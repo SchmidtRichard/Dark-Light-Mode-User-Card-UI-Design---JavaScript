@@ -71,8 +71,12 @@ section .card .imgText h3 span {
 
 section .card .sci {
     display: flex;
+    margin-top: 15px;
 }
 
+section .card .sci li {
+    list-style: nome;
+}
 
 
 
