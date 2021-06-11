@@ -63,6 +63,11 @@ section .card .imgText h3 {
     color: #AA00FF;
 }
 
+section .card .imgText h3 span {
+    font-weight: 400;
+    color: #FF00CC;
+    font-size: 0.75em;
+}
 
 
 
