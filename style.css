@@ -69,6 +69,10 @@ section .card .imgText h3 span {
     font-size: 0.75em;
 }
 
+section .card .sci {
+    display: flex;
+}
+
 
 
 
