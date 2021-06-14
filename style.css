@@ -109,6 +109,9 @@ section .card .sci li a:before {
     transition: 0.5s;
 }
 
+section .card .sci li a:hover:before {
+    transform: scale(1);
+}
 
 
 
