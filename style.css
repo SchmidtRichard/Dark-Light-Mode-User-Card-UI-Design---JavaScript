@@ -15,6 +15,11 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.8s;
+}
+
+section.dark{
+    background: #24292d;
 }
 
 section .card {
@@ -27,6 +32,11 @@ section .card {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.8s;
+}
+
+section.dark .card {
+    background: #323840;
 }
 
 section .card .content,
@@ -69,6 +79,10 @@ section .card .imgText h3 span {
     font-size: 0.75em;
 }
 
+section.dark .card .imgText h3 span {
+    color: #FF69B4;
+}
+
 section .card .sci {
     display: flex;
     margin-top: 15px;
@@ -92,6 +106,10 @@ section .card .sci li a {
     border-radius: 50%;
     font-size: 20px;
     transition: 0.7s;
+}
+
+section.dark .card .sci li a {
+    background: #404852;
 }
 
 section .card .sci li a:hover {
@@ -122,14 +140,30 @@ section .card .sci li a:hover:before {
     position: absolute;
     top: 20px;
     right: 20px;
-    background: #f00;
+    background: #e9f5ff;
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
+section.dark .toggle {
+    background: #404852;
+}
 
+.toggle:before {
+    content: "\f186";
+    font-family: fontAwesome;
+    color: #2fa1ff;
+}
 
+section.dark .toggle:before {
+    content: "\f185";
+    color: #FDB813;
+}
 
 
 
